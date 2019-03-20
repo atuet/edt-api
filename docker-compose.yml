@@ -1,0 +1,19 @@
+version: '3.7'
+
+services:
+  server:
+    container_name: edt-api
+    hostname: edt-api
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    image: edt-api:1.0.0
+    restart: on-failure
+    volumes:
+      - ./:/usr/src/app
+      - /usr/src/app/node_modules
+    ports:
+      - "3001:3001"
+    environment:
+      - ENV=development
+    command: npm run dev

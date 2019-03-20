@@ -1,0 +1,11 @@
+# app dependencies
+node_modules/
+
+# editor configuration
+.vscode/
+
+# config
+.env
+
+# documentation
+doc/

@@ -1,0 +1,15 @@
+{
+  "name": "edt-api",
+  "version": "1.0.0",
+  "description": "API wrapper for my EPSI's agenda",
+  "title": "API EDT - Documentation",
+  "order": [
+    "Others",
+    "Day",
+    "Week"
+  ],
+  "template": {
+  	"withCompare": true,
+  	"withGenerator": true
+  }
+}
